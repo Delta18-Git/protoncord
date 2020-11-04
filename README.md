@@ -5,6 +5,7 @@
 <p align="center">Inspired by the layout of ProtonVPN.</p>
 
 ![](TEMP/ProtoncordPreview.png)
+![](TEMP/emoji_picker.png)
 
 ## Attributes
 * [UserBackgrounds](http://github.com/discord-Custom-Covers/usrbg/) Support
