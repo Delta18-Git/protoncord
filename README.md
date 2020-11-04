@@ -6,6 +6,7 @@
 
 ![](TEMP/ProtoncordPreview.png)
 ![](TEMP/emoji_picker.png)
+![](https://github.com/Giangamerino/protoncord-dev/blob/main/TEMP/slide_in.gif?raw=true)
 
 ## Attributes
 * [UserBackgrounds](http://github.com/discord-Custom-Covers/usrbg/) Support
