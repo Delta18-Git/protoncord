@@ -14,6 +14,9 @@
 * [DevTags](about:blank) Integration
 * Sleek, modern UI
 
+### Support Server
+If you need support, join [The Kitchen Laboratories](https://discord.com/invite/6aJAvdr/) Reborn
+
 
 This theme is built up from the base of the [Glasscord Example Theme](https://github.com/AryToNeX/Glasscord/blob/master/extras/discord_example_theme/discord_example.theme.css). If you are a [ProtonVPN](https://protonvpn.com/) employee or a creator of the base and want this theme to be taken down, please message me via Discord: `Chip#9000`.
 
