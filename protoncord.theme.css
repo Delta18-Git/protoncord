@@ -65,6 +65,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 /* Default Header Revamp */
+.userPopout-3XzG_A {
+  animation: topbar-border 1s ease-in-out infinite !important;
+  border-radius: 8px;
+}
+
 .headerNormal-T_seeN {
 	z-index: 0;
 }
@@ -76,7 +81,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #20222580;
+	background: var(--background-secondary);
 	z-index: -1;
 	border-radius: 5px;
 }
@@ -85,14 +90,26 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	z-index: 0;
 }
 
-.headerPlaying-j0WQBV::after, .headerStreaming-2FjmGz::after {
+.headerPlaying-j0WQBV::after {
 	content: '';
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #7289da80;
+	background: #128B455f;
+	z-index: -1;
+	border-radius: 5px;
+}
+
+.headerStreaming-2FjmGz::after {
+  content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #5936955f;
 	z-index: -1;
 	border-radius: 5px;
 }
@@ -114,19 +131,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .body-3iLsc4 {
-	background: var(--background-secondary-chat) !important;
+	background: var(--background-secondary) !important;
 	backdrop-filter: blur(5px);
-}
-
-.userPopout-3XzG_A::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: var(--background-pinned);
-	z-index: -1;
 }
 
 /* USRBG Header */
@@ -1371,4 +1377,23 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
 
 .tile-2naSqK, .streamPreview-3YL8OQ {
   background-color: var(--background-secondary-alt);
-}}
+}
+
+.form-2fGMdU {
+  padding-right: 60px;
+}
+
+/*Gift Box Redesign*/
+.lookBlank-3eh9lL[aria-label="Send a gift"] {
+  position: fixed;
+  z-index: 100;
+  margin: -1px 93px;
+  background-color: #1E1E24;
+  border: 1px solid #323238;
+  border-radius: 7px;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+  padding-right: 2px;
+  padding-left: 2px;
+  box-shadow: 0 2px 15px #0000005f;
+}
