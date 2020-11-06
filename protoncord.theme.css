@@ -1380,20 +1380,76 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
 }
 
 .form-2fGMdU {
-  padding-right: 60px;
+  padding-left: 150px;
 }
 
-/*Gift Box Redesign*/
+
 .lookBlank-3eh9lL[aria-label="Send a gift"] {
+  display:none
+}
+
+.lookBlank-3eh9lL[aria-label="Open GIF picker"] {
+  padding-top: 4px;
+}
+
+
+
+.buttons-3JBrkn {
   position: fixed;
-  z-index: 100;
-  margin: -1px 93px;
-  background-color: #1E1E24;
+  z-index: 0;
+  top: unset;
+  bottom: 24.5px;
+  left: 374px;
+  height: 46px;
+  width: 82px;
+  background-color: transparent;
+}
+
+.attachButton-2WznTc {
+  position: fixed;
+  z-index: 194201337;
+  top: unset;
+  bottom: 24.5px;
+  left: 343px;
+  height: 46px;
+  width: 45px;
+  padding-left: 24px;
+  padding-right: 103px;
   border: 1px solid #323238;
   border-radius: 7px;
-  padding-top: 4.5px;
-  padding-bottom: 4.5px;
-  padding-right: 2px;
-  padding-left: 2px;
-  box-shadow: 0 2px 15px #0000005f;
+  box-shadow: 0 2px 15px #0000005f !important;
+  opacity: 1;
+  transition: background-color .2s;
+}
+
+.attachButtonInner-PQjIyk {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.attachButton-2WznTc svg {
+  filter: brightness(0) invert(0.7);
+}
+
+
+.attachButton-2WznTc svg:hover {
+  filter: brightness(0) invert(1)
+}
+
+/*
+
+.inner-MADQqc .buttons-3JBrkn {
+  width: 0px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .2s ease-in-out;
+}
+
+
+.inner-MADQqc:hover .buttons-3JBrkn {
+  width: 100px;
+  opacity: 1;
+  pointer-events: all;
 }
