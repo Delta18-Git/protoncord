@@ -49,25 +49,29 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .userPopout-3XzG_A .wrapper-3t9DeA::after {
-	content: '';
+  content: '';
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	z-index: -2;
-	opacity: .6;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: var(--user-popout-position) center;
 	background-image: var(--user-background);
-	border-radius: 5px;
+	border-radius: 0px;
+  opacity: 0.6;
 }
 
 /* Default Header Revamp */
 .userPopout-3XzG_A {
-  animation: topbar-border 1s ease-in-out infinite !important;
-  border-radius: 8px;
+  border-radius: 0px;
+  background: var(--background-primary);
+}
+
+.theme-dark .headerNormal-T_seeN {
+  background: var(--background-secondary-alt);
 }
 
 .headerNormal-T_seeN {
@@ -81,9 +85,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: var(--background-secondary);
+	background: transparent;
 	z-index: -1;
-	border-radius: 5px;
+	border-radius: 0px;
+}
+
+.theme-dark .headerPlaying-j0WQBV {
+  background: var(--success);
+}
+
+.theme-dark .headerStreaming-2FjmGz {
+	background: #593695;
 }
 
 .headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
@@ -97,9 +109,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #128B455f;
 	z-index: -1;
-	border-radius: 5px;
+	border-radius: 0px;
 }
 
 .headerStreaming-2FjmGz::after {
@@ -109,9 +120,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #5936955f;
 	z-index: -1;
-	border-radius: 5px;
+	border-radius: 0px;
+}
+
+.theme-dark .headerSpotify-zpWxgT {
+	background: #1db954;
 }
 
 .headerSpotify-zpWxgT {
@@ -125,14 +139,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #1db95480;
 	z-index: -1;
-	border-radius: 5px;
+	border-radius: 0px;
 }
 
 .body-3iLsc4 {
-	background: var(--background-secondary) !important;
-	backdrop-filter: blur(5px);
+	background: transparent !important;
+  z-index: 1;
+  backdrop-filter: blur(5px);
 }
 
 /* USRBG Header */
@@ -428,6 +442,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .scrollableContainer-2NUZem.webkit-HjD9Er{
   background-color: var(--background-primary);
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 0px;
 }
 
 .theme-dark .checked-3_4uQ9 {
@@ -1379,77 +1396,43 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   background-color: var(--background-secondary-alt);
 }
 
-.form-2fGMdU {
-  padding-left: 150px;
+/*Reposition Emote, GIF, Gift*/
+.buttons-3JBrkn {
+  margin-right: unset;
+  flex-direction: row;
 }
 
-
-.lookBlank-3eh9lL[aria-label="Send a gift"] {
-  display:none
+.form-2fGMdU {
+  margin-bottom: 11px;
+  margin-top: -15px;
+  padding-left: 0px;
 }
 
 .lookBlank-3eh9lL[aria-label="Open GIF picker"] {
   padding-top: 4px;
 }
 
-
+.lookBlank-3eh9lL[aria-label="Send a gift"] {
+  padding-top: 3px;
+}
 
 .buttons-3JBrkn {
+  background-color: var(--background-primary);
   position: fixed;
-  z-index: 0;
   top: unset;
-  bottom: 24.5px;
-  left: 374px;
-  height: 46px;
-  width: 82px;
-  background-color: transparent;
-}
-
-.attachButton-2WznTc {
-  position: fixed;
-  z-index: 194201337;
-  top: unset;
-  bottom: 24.5px;
-  left: 343px;
-  height: 46px;
-  width: 45px;
-  padding-left: 24px;
-  padding-right: 103px;
-  border: 1px solid #323238;
-  border-radius: 7px;
-  box-shadow: 0 2px 15px #0000005f !important;
+  bottom: 0px;
+  left: 312px;
+  height: 35px;
+  width: 118px;
+  padding: unset;
+  border-radius: 0px;
   opacity: 1;
-  transition: background-color .2s;
+  flex-direction: row-reverse;
+  border-bottom-right-radius: 0px;
+  border-right: 1px solid #323238;
+  border-bottom: 0px;
 }
 
-.attachButtonInner-PQjIyk {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 11px;
-  padding-right: 11px;
-}
-
-.attachButton-2WznTc svg {
-  filter: brightness(0) invert(0.7);
-}
-
-
-.attachButton-2WznTc svg:hover {
-  filter: brightness(0) invert(1)
-}
-
-/*
-
-.inner-MADQqc .buttons-3JBrkn {
-  width: 0px;
-  opacity: 0;
-  pointer-events: none;
-  transition: all .2s ease-in-out;
-}
-
-
-.inner-MADQqc:hover .buttons-3JBrkn {
-  width: 100px;
-  opacity: 1;
-  pointer-events: all;
+.base-gE7OpD {
+  margin-left: 100px;
 }
