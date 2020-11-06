@@ -902,8 +902,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	background-color: transparent;
 }
 
-.footer-1fjuF6 {
-	display: none;
+.theme-dark .footer-1fjuF6 {
+  background: transparent;
 }
 
 /*DISCORD ON TOP*/
