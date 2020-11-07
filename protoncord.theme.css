@@ -442,9 +442,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .scrollableContainer-2NUZem.webkit-HjD9Er{
   background-color: var(--background-primary);
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  border-radius: 0px;
   border-left: 0px;
+  border-right: 0px;
 }
 
 .theme-dark .checked-3_4uQ9 {
@@ -1406,6 +1406,7 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   margin-bottom: 11px;
   margin-top: -15px;
   padding-left: 0px;
+  padding-right: 0px;
 }
 
 .lookBlank-3eh9lL[aria-label="Open GIF picker"] {
