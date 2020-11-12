@@ -906,7 +906,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   background: transparent;
 }
 
-/*DISCORD ON TOP*/
+/* Sticky Discord */
 
 .wrapper-1Rf91z .scroller-2TZvBN {
   contain: none;
@@ -924,7 +924,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN .tutorialContainer-1v44GL .listItemWrapper-3X98Pc {
-  background: #2B2C34;
+  background: var(--background-secondary);
+  backdrop-filter: blur(5px);
   box-shadow: var(--elevation-low);
 }
 
@@ -1045,8 +1046,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .iconBadge-2wi9r4.participating-NBGDkr {
   animation: blurpleFade 1s ease-in-out infinite;
 }
-
-/*QUICK-CSS POWERCORD (BROKEN)*/
 
 /*BACKGROUNDS ON VOICE*/
 .minimum-28Z35l > .root-217Brm,
