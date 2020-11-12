@@ -26,5 +26,5 @@ This theme is built up from the base of the [Glasscord Example Theme](https://gi
 |:-:|:-:|
 | ProtonVPN | Naomi |
 
-> **Pictures may not resemble most up-to-date version.**
+**Pictures may not resemble most up-to-date version.**
 > **This is a developer branch with many bugs.**
