@@ -37,6 +37,6 @@ If you haven't moved your powercord folder, use this command to directly clone t
 If you did move your powercord folder, change the directory string to the themes folder of where you moved it to.
 
 ### BetterDiscord
-Download the ![Theme File](https://github.com/Giangamerino/protoncord/blob/Release/protoncord.theme.css) and move it into your themes directory.
+Download the [Theme File](https://github.com/Giangamerino/protoncord/blob/Release/protoncord.theme.css) and move it into your themes directory.
 
 ### Version 1.0.0
