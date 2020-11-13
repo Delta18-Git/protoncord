@@ -1,7 +1,7 @@
 {
     "name": "Protoncord",
     "description": "A sleek, modern UI inspired by the layout of ProtonVPN. Glasscord compatible.",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "author": "Chip#1329",
     "theme": "protoncord.theme.css",
     "license": "MIT"
