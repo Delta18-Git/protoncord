@@ -12,7 +12,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
  * @name Protoncord Development
  * @description A sleek, modern UI inspired by the layout of ProtonVPN. Glasscord compatible.
  * @author Chip#9000
- * @version 0.2.0
+ * @version 1.0.0
  * @source https://github.com/Giangamerino/protoncord-dev
  * @invite 6aJAvdr
  */
@@ -1302,9 +1302,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   height: 239px;
 }
 
+.actionButton-3CLkPB.last-3WKR_s[aria-label="Join Call"] {
+  border-radius: 25px !important;
+}
+
 .actionButton-3CLkPB.last-3WKR_s[aria-label="Join Call"]:after {
   content: "Join Call" !important;
-  border-radius: 0px !important;
 }
 
 .actionButton-3CLkPB.last-3WKR_s {
@@ -1454,4 +1457,11 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
 	content: "settings";
   bottom: 31px;
   left: 8px;
+}
+
+/* Volume Control Reposition */
+
+.volumeButton-2XwKVs {
+  left: 35px;
+  bottom: 35px;
 }
