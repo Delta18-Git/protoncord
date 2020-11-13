@@ -1,6 +1,6 @@
 ### This theme is about to be released.
 <p align="center">
-  <img align="center" src="https://github.com/Giangamerino/protoncord-dev/blob/main/TEMP/protonLogoBig.png?raw=true"></img>
+  <img align="center" src="https://github.com/Giangamerino/protoncord-dev/blob/main/Previews/protonLogoBig.png?raw=true"></img>
 </p>
 <p align="center">A sleek, modern UI purely made in CSS for Discord.</p>
 <p align="center">Inspired by the layout of ProtonVPN.</p>
