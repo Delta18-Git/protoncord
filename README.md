@@ -8,6 +8,7 @@
 ![](Previews/ProtoncordPreview.png)
 ![](Previews/emoji_picker.png)
 ![](https://github.com/Giangamerino/protoncord/blob/main/Previews/slide_in.gif?raw=true)
+**Pictures may not resemble most up-to-date version.**
 
 ## Attributes
 * [UserBackgrounds](http://github.com/discord-Custom-Covers/usrbg/) Support
@@ -25,8 +26,6 @@ This theme is built up from the base of the [Glasscord Example Theme](https://gi
 | <a href="https://protonvpn.com/" target="_blank"> <img src="https://github.com/Giangamerino/protoncord/blob/main/Previews/ProtonVPNLogo.png?raw=true" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/AryToNeX" target="_blank"> <img src="https://avatars1.githubusercontent.com/u/13177694?s=460&u=5b2c5ca79bbb3e37fbf5094e073f436e8d5b0bf7&v=4" alt="" width="96px" height="96px"> </a> |
 |:-:|:-:|
 | ProtonVPN | Naomi |
-
-**Pictures may not resemble most up-to-date version.**
 
 # How to install??
 
