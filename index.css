@@ -346,20 +346,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   width: 2px !important;
 }
 
-.blockquoteContainer-U5TVEi {
-  overflow: visible;
-  margin-left: -72px;
-  padding-left: 72px;
-}
-
-.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
-  margin-left: -72px;
-}
-
-.blockquoteContainer-U5TVEi blockquote {
-  text-indent: 57px;
-}
-
+/* Message Padding */
 .message-2qnXI6 {
   padding-right: 0px !important;
 }
@@ -1443,13 +1430,6 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
 	content: "settings";
   bottom: 31px;
   left: 8px;
-}
-
-/* Volume Control Reposition */
-
-.volumeButton-2XwKVs {
-  left: 35px;
-  bottom: 35px;
 }
 
 /* Reply Float */
