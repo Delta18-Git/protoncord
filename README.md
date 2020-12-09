@@ -26,6 +26,21 @@ This theme is built up from the base of the [Glasscord Example Theme](https://gi
 |:-:|:-:|
 | ProtonVPN | Naomi |
 
+### Credits
+I used snippets from the people below and wanna thank them for it.
+
+Static Home Button: **Kanin#0001**
+
+Offline Prompt: **Bowser65#0001**
+
+Toasts & Titlebar: **Beef#3980**
+
+Wordmark Changer: **Liam The Protogen#2501**
+
+Sidebar Transparency Fix: **Tropical#4335**
+
+If I forgot someone, sorry.
+
 # How to install??
 
 ### Powercord
